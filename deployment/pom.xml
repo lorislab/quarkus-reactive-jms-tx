@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.lorislab.quarkus</groupId>
         <artifactId>quarkus-reactive-jms-tx-parent</artifactId>
-        <version>0.1.1-SNAPSHOT</version>
+        <version>0.1.2-SNAPSHOT</version>
         <relativePath>../</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
