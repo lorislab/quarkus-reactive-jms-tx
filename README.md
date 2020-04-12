@@ -12,7 +12,7 @@ Quarkus reactive JMS Session `SESSION_TRANSACTED` receiver.
 ```java
 @Incoming("input")
 @Acknowledgment(Acknowledgment.Strategy.MANUAL)
-public CompletionStage<Void> message(InputJmsMessage<Data> input) {
+public CompletionStage<Void> message(IncomingJmsTxMessage<Data> input) {
     try {    
       ...
       // optional send message
