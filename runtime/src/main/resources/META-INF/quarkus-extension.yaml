@@ -1,0 +1,12 @@
+---
+name: "Lorislab JMS SESSION_TRANSACTED stream"
+metadata:
+  short-name: "jms"
+  keywords:
+    - "jms"
+    - "reactive-jms"
+    - "transacted"
+  guide: "https://lorislab.org/quarkus/jms"
+  categories:
+    - "messaging"
+  status: "preview"
